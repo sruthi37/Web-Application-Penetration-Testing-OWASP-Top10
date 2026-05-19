@@ -1,11 +1,17 @@
 # 📋 Week 1 — Task 1: OWASP Top 10:2025 Study Notes
 
 **Intern (Team Lead):** Sruthi Rajeshkumar  
+
 **Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
+
 **Organization:** Zaalimaa Development Pvt Ltd  
+
 **Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
+
 **Week:** Week 1  
+
 **Date:** 19.05.2026  
+
 **Status:** ✅ Completed
 
 ---
