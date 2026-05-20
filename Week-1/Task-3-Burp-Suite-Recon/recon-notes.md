@@ -1,11 +1,17 @@
 # 🔍 Week 1 — Task 3: Burp Suite Reconnaissance & Spidering
 
 **Intern (Team Lead):** Sruthi Rajeshkumar  
-**Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
+
+**Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav
+
 **Organization:** Zaalimaa Development Pvt Ltd  
+
 **Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
+
 **Week:** Week 1  
+
 **Date:** 19.05.2026  
+
 **Status:** ✅ Completed
 
 ---
