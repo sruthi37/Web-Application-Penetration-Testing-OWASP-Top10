@@ -111,29 +111,53 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 📁 Web-Application-Penetration-Testing-OWASP-Top10
 │
 └── 📁 Week-1
+
 ├── 📁 Task-1-OWASP-Top10-Notes
+
 │   ├── notes.md
+
 │   └── 📁 screenshots
+
 │       ├── owasp-homepage.png
+
 │       ├── a01-broken-access-control.png
+
 │       ├── a05-injection.png
+
 │       ├── a07-authentication-failures.png
+
 │       └── study-notes-document.png
+
 ├── 📁 Task-2-Environment-Setup
+
 │   ├── setup-notes.md
+
 │   └── 📁 screenshots
+
 │       ├── docker-ps.png
+
 │       ├── dvwa-setup-page.png
+
 │       ├── dvwa-database-reset.png
+
 │       ├── dvwa-dashboard.png
+
 │       └── juice-shop-running.png
+
 └── 📁 Task-3-Burp-Suite-Recon
+
 ├── recon-notes.md
+
 └── 📁 screenshots
+
 ├── burp-suite-dashboard.png
+
 ├── proxy-settings.png
+
 ├── firefox-proxy-config.png
+
 ├── intercept-live-request.png
+
 └── site-map-endpoints.png
 
 ---
