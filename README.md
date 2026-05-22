@@ -108,6 +108,9 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ## 📁 Repository Structure
 
+## 📁 Repository Structure
+
+```
 📁 Web-Application-Penetration-Testing-OWASP-Top10/
 │
 └── 📁 Week-1/
@@ -119,6 +122,7 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
     │       ├── 🖼️ a01-broken-access-control.png
     │       ├── 🖼️ a05-injection.png
     │       ├── 🖼️ a07-authentication-failures.png
+    │       └── 🖼️ study-notes-document.png
     │
     ├── 📁 Task-2-Environment-Setup/
     │   ├── 📄 setup-notes.md
@@ -137,6 +141,7 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
             ├── 🖼️ firefox-proxy-config.png
             ├── 🖼️ intercept-live-request.png
             └── 🖼️ site-map-endpoints.png
+```
 
 ---
 
