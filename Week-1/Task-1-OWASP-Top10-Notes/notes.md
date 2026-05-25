@@ -28,19 +28,19 @@ and prevention techniques.
 ## 📸 Screenshots
 - Screenshot 1: OWASP Top 10:2025 Homepage — `screenshots/owasp-homepage.png`
 
- <img width="1600" height="791" alt="OWASP Top 10" src="https://github.com/user-attachments/assets/8a466da5-5dc7-4eb0-b549-20520c5ed523" />
+<img width="1600" height="791" alt="OWASP Top 10" src="https://github.com/user-attachments/assets/8a466da5-5dc7-4eb0-b549-20520c5ed523" />
  
 - Screenshot 2: A01 Broken Access Control page — `screenshots/a01-broken-access-control.png`
 
-  <img width="1600" height="786" alt="WhatsApp Image 2026-05-25 at 8 36 48 PM" src="https://github.com/user-attachments/assets/b6b4b5c5-9437-4f88-bf73-d17de034ed06" />
+<img width="1600" height="786" alt="WhatsApp Image 2026-05-25 at 8 36 48 PM" src="https://github.com/user-attachments/assets/b6b4b5c5-9437-4f88-bf73-d17de034ed06" />
   
 - Screenshot 3: A05 Injection page — `screenshots/a05-injection.png`
 
- <img width="1600" height="788" alt="WhatsApp Image 2026-05-25 at 8 36 48 PM (1)" src="https://github.com/user-attachments/assets/44aa3d9b-e269-4797-b7c8-74b035ac3032" />
+<img width="1600" height="788" alt="WhatsApp Image 2026-05-25 at 8 36 48 PM (1)" src="https://github.com/user-attachments/assets/44aa3d9b-e269-4797-b7c8-74b035ac3032" />
  
 - Screenshot 4: A07 Authentication Failures page — `screenshots/a07-authentication-failures.png`
 
-  <img width="1600" height="788" alt="WhatsApp Image 2026-05-25 at 8 36 48 PM (2)" src="https://github.com/user-attachments/assets/5d4f684f-c1ee-4ae5-bd6c-5cc308f564f3" />
+<img width="1600" height="788" alt="WhatsApp Image 2026-05-25 at 8 36 48 PM (2)" src="https://github.com/user-attachments/assets/5d4f684f-c1ee-4ae5-bd6c-5cc308f564f3" />
 
 ---
 
