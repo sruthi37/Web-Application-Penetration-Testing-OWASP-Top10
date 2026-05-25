@@ -25,10 +25,38 @@ all discovered endpoints.
 
 ## 📸 Screenshots
 - Screenshot 1: Burp Suite Dashboard — `screenshots/burp-suite-dashboard.png`
+
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/9770c3f6-03ff-4d0d-bd88-7672298d63a3" />
+
+
 - Screenshot 2: Proxy Settings (port 8081) — `screenshots/proxy-settings.png`
+
+<img width="1600" height="844" alt="WhatsApp Image 2026-05-25 at 10 44 36 PM" src="https://github.com/user-attachments/assets/211bdd76-5f84-4064-a947-c7bee1eef5bb" />
+
+
 - Screenshot 3: Firefox Proxy Configuration — `screenshots/firefox-proxy-config.png`
+
+<img width="1600" height="841" alt="WhatsApp Image 2026-05-25 at 10 43 21 PM" src="https://github.com/user-attachments/assets/d016d86f-39ab-42e1-87ab-227599b893c7" />
+
+
 - Screenshot 4: Intercept capturing live HTTP request — `screenshots/intercept-live-request.png`
+
+<img width="1600" height="840" alt="WhatsApp Image 2026-05-25 at 10 42 42 PM" src="https://github.com/user-attachments/assets/6f26210a-6cdc-4055-a52a-1bce2ed9831f" />
+
+
 - Screenshot 5: Site Map showing localhost:3000 endpoints — `screenshots/site-map-endpoints.png`
+
+<img width="1600" height="846" alt="WhatsApp Image 2026-05-25 at 10 42 01 PM" src="https://github.com/user-attachments/assets/511bc4d4-afc8-40d3-afc4-07137d0939e7" />
+
+
+- Screenshot 6: Site Map localhost discovered — `screenshots/site-map-localhost-discovered.png`
+
+<img width="1600" height="845" alt="WhatsApp Image 2026-05-25 at 10 38 59 PM" src="https://github.com/user-attachments/assets/b30846ce-6e2f-4a43-86ca-a1235e691db2" />
+
+
+- Screenshot 7: Site Map endpoints expanded — `screenshots/site-map-endpoints.png`
+
+<img width="1600" height="844" alt="WhatsApp Image 2026-05-25 at 10 39 49 PM" src="https://github.com/user-attachments/assets/47b29779-fbfb-446d-9b48-82ff196f889f" />
 
 ---
 
