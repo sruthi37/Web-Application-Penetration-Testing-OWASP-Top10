@@ -24,11 +24,36 @@ and accessible for penetration testing.
 ---
 
 ## 📸 Screenshots
+
 - Screenshot 1: Terminal showing docker ps (both containers running) — `screenshots/docker-ps.png`
+
+<img width="958" height="503" alt="Screenshot 2026-05-17 214023" src="https://github.com/user-attachments/assets/aedaf28f-0e00-4114-b0c3-c5b0a56fa1f7" />
+
+
 - Screenshot 2: DVWA Setup page at localhost:8080 — `screenshots/dvwa-setup-page.png`
+
+<img width="959" height="505" alt="Screenshot 2026-05-17 214151" src="https://github.com/user-attachments/assets/5879d612-f1c9-4cee-acb7-0bbd718ea3bb" />
+
+
 - Screenshot 3: DVWA Create/Reset Database success — `screenshots/dvwa-database-reset.png`
+
+<img width="959" height="509" alt="Screenshot 2026-05-17 214442" src="https://github.com/user-attachments/assets/c1e87e4d-2076-47fe-9eb5-cb668eca288f" />
+
+<img width="959" height="503" alt="Screenshot 2026-05-17 214501" src="https://github.com/user-attachments/assets/5eb2a83c-a890-43af-8d2f-519e638e8cec" />
+
+<img width="959" height="507" alt="Screenshot 2026-05-17 214821" src="https://github.com/user-attachments/assets/d8dac935-d13a-4d9c-a9b2-6af708119864" />
+
+
 - Screenshot 4: DVWA Dashboard logged in as admin — `screenshots/dvwa-dashboard.png`
+
+<img width="959" height="504" alt="Screenshot 2026-05-17 214409" src="https://github.com/user-attachments/assets/63c432e6-62f2-467b-86cd-cbf20fc110ed" />
+
+
 - Screenshot 5: Juice Shop running at localhost:3000 — `screenshots/juice-shop-running.png`
+
+<img width="959" height="506" alt="Screenshot 2026-05-17 215301" src="https://github.com/user-attachments/assets/4f4e8bf2-ef41-475b-940e-d0cc25be2bbb" />
+
+<img width="959" height="500" alt="Screenshot 2026-05-17 215442" src="https://github.com/user-attachments/assets/65ae98e4-4d28-47f5-a9e6-2c834da5f626" />
 
 ---
 
