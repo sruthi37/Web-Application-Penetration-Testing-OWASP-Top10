@@ -108,8 +108,6 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ## 📁 Repository Structure
 
-## 📁 Repository Structure
-
 ```
 📁 Web-Application-Penetration-Testing-OWASP-Top10/
 │
