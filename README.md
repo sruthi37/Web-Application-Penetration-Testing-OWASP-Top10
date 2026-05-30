@@ -161,7 +161,7 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 |---|---|---|
 | Task 1 — OWASP Study | 4 screenshots | ✅ Uploaded |
 | Task 2 — Environment Setup | 5 screenshots | ✅ Uploaded |
-| Task 3 — Burp Suite Recon | 5 screenshots | ✅ Uploaded |
+| Task 3 — Burp Suite Recon | 7 screenshots | ✅ Uploaded |
 
 ---
 
