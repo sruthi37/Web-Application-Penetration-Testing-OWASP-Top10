@@ -138,6 +138,9 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
             ├── 🖼️ firefox-proxy-config.png
             ├── 🖼️ intercept-live-request.png
             └── 🖼️ site-map-endpoints.png
+            └── 🖼️ site Map localhost discovered
+            └── 🖼️ site Map endpoints expanded
+
 ```
 
 ---
