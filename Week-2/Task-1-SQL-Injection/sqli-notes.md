@@ -31,24 +31,50 @@ Perform SQL Injection testing on DVWA to understand how SQLi vulnerabilities wor
 
 ## 📸 Screenshots
 
-- Screenshot 1: Docker containers running — `<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 02 29 PM" src="https://github.com/user-attachments/assets/b012e819-fac2-412c-87fa-5d98a00ea13b" />
-`
-- Screenshot 2: DVWA Login page — `<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 09 03 PM" src="https://github.com/user-attachments/assets/9ee0b132-71e0-447f-b8bc-8e63e02e217e" />
-`
-- Screenshot 3: DVWA Dashboard — `<img width="1600" height="842" alt="WhatsApp Image 2026-06-03 at 1 18 39 PM" src="https://github.com/user-attachments/assets/0f81f107-9e94-4d8b-be25-04de72097a2d" />
-`
-- Screenshot 4: DVWA Security set to Low — `<img width="1600" height="839" alt="WhatsApp Image 2026-06-03 at 1 21 01 PM" src="https://github.com/user-attachments/assets/0dc56cc3-2e5f-4b9b-b97c-24c205a92899" />
-`
-- Screenshot 5: SQL Injection module — `<img width="1600" height="843" alt="WhatsApp Image 2026-06-03 at 1 31 48 PM" src="https://github.com/user-attachments/assets/2c15d5ee-40ce-433d-b930-a63c324f3d65" />
-`
-- Screenshot 6: Normal query result (ID=1) — `<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 35 17 PM" src="https://github.com/user-attachments/assets/a3657d3b-9005-4766-a183-50ec21578706" />
-`
-- Screenshot 7: SQL error message (MariaDB exposed) — `<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 40 17 PM" src="https://github.com/user-attachments/assets/93582adb-d1dd-4437-a774-c0c9caca8ee6" />
-`
-- Screenshot 8: All users dumped — `<img width="1600" height="843" alt="WhatsApp Image 2026-06-03 at 1 44 21 PM" src="https://github.com/user-attachments/assets/c3981fad-8acb-4563-86ce-56c40df1cd4a" />
-`
-- Screenshot 9: UNION based - DB info extracted — `<img width="1600" height="839" alt="WhatsApp Image 2026-06-03 at 1 45 44 PM" src="https://github.com/user-attachments/assets/2590a405-662d-4316-ab05-1d2d812f69b5" />
-`
+- Screenshot 1: Docker containers running 
+
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 02 29 PM" src="https://github.com/user-attachments/assets/d62c7571-ef0b-4f6d-84fd-5893136d2021" />
+
+
+- Screenshot 2: DVWA Login page 
+
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 09 03 PM" src="https://github.com/user-attachments/assets/9ee0b132-71e0-447f-b8bc-8e63e02e217e" />
+
+
+- Screenshot 3: DVWA Dashboard 
+
+<img width="1600" height="842" alt="WhatsApp Image 2026-06-03 at 1 18 39 PM" src="https://github.com/user-attachments/assets/0f81f107-9e94-4d8b-be25-04de72097a2d" />
+
+
+- Screenshot 4: DVWA Security set to Low 
+
+<img width="1600" height="839" alt="WhatsApp Image 2026-06-03 at 1 21 01 PM" src="https://github.com/user-attachments/assets/0dc56cc3-2e5f-4b9b-b97c-24c205a92899" />
+
+
+- Screenshot 5: SQL Injection module 
+
+<img width="1600" height="843" alt="WhatsApp Image 2026-06-03 at 1 31 48 PM" src="https://github.com/user-attachments/assets/2c15d5ee-40ce-433d-b930-a63c324f3d65" />
+
+
+- Screenshot 6: Normal query result (ID=1) 
+
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 35 17 PM" src="https://github.com/user-attachments/assets/a3657d3b-9005-4766-a183-50ec21578706" />
+
+
+- Screenshot 7: SQL error message (MariaDB exposed) — 
+
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 40 17 PM" src="https://github.com/user-attachments/assets/93582adb-d1dd-4437-a774-c0c9caca8ee6" />
+
+
+- Screenshot 8: All users dumped 
+
+<img width="1600" height="843" alt="WhatsApp Image 2026-06-03 at 1 44 21 PM" src="https://github.com/user-attachments/assets/c3981fad-8acb-4563-86ce-56c40df1cd4a" />
+
+
+- Screenshot 9: UNION based - DB info extracted 
+
+<img width="1600" height="839" alt="WhatsApp Image 2026-06-03 at 1 45 44 PM" src="https://github.com/user-attachments/assets/2590a405-662d-4316-ab05-1d2d812f69b5" />
+
 
 ---
 
