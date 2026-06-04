@@ -2,7 +2,7 @@
 
 **Intern (Team Lead):** Sruthi Rajeshkumar  
 
-**Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
+**Team Members:** MD Abdulla | Sudarshan Yadav  
 
 **Organization:** Zaalimaa Development Pvt Ltd  
 
