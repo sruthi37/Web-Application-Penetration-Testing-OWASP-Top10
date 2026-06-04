@@ -1,24 +1,30 @@
-
 # 💉 Week 2 — Task 1: SQL Injection Testing
 
 **Intern (Team Lead):** Sruthi Rajeshkumar  
+
 **Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
+
 **Organization:** Zaalimaa Development Pvt Ltd  
+
 **Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
+
 **Week:** Week 2  
+
 **Date:** 03.06.2026  
+
 **Status:** ✅ Completed
 
 ---
 
 ## 📌 Objective
-Perform SQL Injection testing on DVWA to understand how SQLi vulnerabilities
-work, extract sensitive data from the database, and document all findings
-with proof of exploitation.
+Perform SQL Injection testing on DVWA to understand how SQLi vulnerabilities work, extract sensitive data from the database, and document all findings with proof of exploitation.
 
 **OWASP Reference:** A05:2025 - Injection  
+
 **Platform:** DVWA (http://localhost:8080)  
+
 **Security Level:** Low  
+
 **Module:** SQL Injection
 
 ---
@@ -52,9 +58,11 @@ with proof of exploitation.
 ## 🧪 Testing Process
 
 ### Step 1 — Normal Query (Baseline)
+---
 Input: 1
 Result: ID: 1, First name: admin, Surname: admin
 Observation: Normal query returns single user details
+---
 
 ### Step 2 — Error Based SQLi
 Input: 1' OR '1'='1
