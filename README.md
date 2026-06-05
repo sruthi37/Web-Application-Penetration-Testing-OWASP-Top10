@@ -1,4 +1,4 @@
-# 🔐 Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)
+# Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Week](https://img.shields.io/badge/Week%201-Completed-green)
