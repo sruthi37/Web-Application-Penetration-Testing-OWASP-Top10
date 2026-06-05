@@ -193,10 +193,10 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ## 📊 Progress Tracker
 
-> Week 1  ████████████████████  100% ✅
-> Week 2  ████████████████████  100% ✅
-> Week 3  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
-> Week 4  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+- Week 1  ████████████████████  100% ✅
+- Week 2  ████████████████████  100% ✅
+- Week 3  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+- Week 4  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
 
 ## ⚠️ Disclaimer
 
