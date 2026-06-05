@@ -165,15 +165,45 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ---
 
-## ⚠️ Disclaimer
+---
 
-> All penetration testing activities documented in this repository are performed
-> exclusively on intentionally vulnerable applications (DVWA and OWASP Juice Shop)
-> in a controlled local environment for educational purposes only.
-> These activities are part of an authorized internship program at
-> Zaalimaa Development Pvt Ltd.
+### 🔄 Week 2 — In Progress
+| Task | Description | Platform | Status |
+|---|---|---|---|
+| Task 1 | SQL Injection Testing | DVWA | ✅ Done |
+| Task 2 | Broken Authentication Testing | DVWA + Juice Shop | ✅ Done |
+| Task 3 | XSS Testing | DVWA | 🔄 In Progress |
+| Task 4 | Sensitive Data Exposure | DVWA | 🔄 Pending |
 
 ---
 
-*© 2026 Zaalimaa Development Pvt Ltd Internship — Week 1 Report*  
+## 🔍 Vulnerabilities Found So Far
+
+| # | Vulnerability | Platform | Severity | Status |
+|---|---|---|---|---|
+| 1 | SQL Injection — Error Based | DVWA | 🔴 Critical | ✅ Confirmed |
+| 2 | SQL Injection — Boolean Based | DVWA | 🔴 Critical | ✅ Confirmed |
+| 3 | SQL Injection — UNION Based | DVWA | 🔴 Critical | ✅ Confirmed |
+| 4 | No Account Lockout | DVWA | 🔴 High | ✅ Confirmed |
+| 5 | Weak Password Policy | DVWA | 🔴 High | ✅ Confirmed |
+| 6 | Credentials in Plain Text URL | DVWA | 🔴 High | ✅ Confirmed |
+| 7 | SQLi Authentication Bypass | Juice Shop | 🔴 Critical | ✅ Confirmed |
+
+---
+
+## 📊 Progress Tracker
+
+Week 1  ████████████████████  100% ✅
+Week 2  ████████████████████  100% ✅
+Week 3  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+Week 4  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+
+## ⚠️ Disclaimer
+
+> All penetration testing activities documented in this repository are performed exclusively on intentionally vulnerable applications (DVWA and OWASP Juice Shop) in a controlled local environment for educational purposes only.
+> These activities are part of an authorized internship program at Zaalimaa Development Pvt Ltd.
+
+---
+
+*© 2026 Zaalimaa Development Pvt Ltd Internship — Week 1 Report & Week 2 Report*  
 *Team Lead: Sruthi Rajeshkumar*
