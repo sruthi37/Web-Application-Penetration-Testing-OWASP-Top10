@@ -115,35 +115,39 @@ and document sensitive data exposure through PHP Info page.
 ### Part 1 — XSS Reflected Testing
 
 #### Step 1 — Normal Input (Baseline)
-Input: John
-Result: Hello John
-Observation: Input is directly reflected in the page output
-             Input also visible in URL — ?name=John
-             No input sanitization
+
+- **Input:** John
+- **Result:** Hello John
+- **Observation:** Input is directly reflected in the page output
+- Input also visible in URL — ?name=John
+- No input sanitization detected
 
 #### Step 2 — XSS Reflected Payload
-Input: <script>alert('XSS')</script>
-Result: Alert popup fired showing "XSS"
-Observation: Script executed successfully in browser
-             Malicious input reflected without sanitization
-             URL contains the injected script
+
+- **Input:** `<script>alert('XSS')</script>`
+- **Result:** Alert popup fired showing "XSS"
+- **Observation:** Script executed successfully in browser
+- Malicious input reflected without sanitization
+- URL contains the injected script
 
 ---
 
 ### Part 2 — XSS Stored Testing
 
 #### Step 1 — Inject Stored XSS Payload
-Name Field: Test
-Message Field: <script>alert('Stored XSS')</script>
-Clicked: Sign Guestbook
-Result: Alert popup fired showing "Stored XSS"
+
+- **Name Field:** Test
+- **Message Field:** `<script>alert('Stored XSS')</script>`
+- **Clicked:** Sign Guestbook
+- **Result:** Alert popup fired showing "Stored XSS"
 
 #### Step 2 — Verify Persistence
-- Action: Refreshed the page
-- Result: Alert fired AGAIN automatically!
-- Observation: Script permanently stored in database
-               Fires for every user who visits the page
-               More dangerous than Reflected XSS
+
+- **Action:** Refreshed the page
+- **Result:** Alert fired AGAIN automatically!
+- **Observation:** Script permanently stored in database
+- Fires for every user who visits the page
+- More dangerous than Reflected XSS
 
 ---
 
