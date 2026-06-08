@@ -1,19 +1,17 @@
 # 🔍 Week 2 — Task 3: XSS & Sensitive Data Exposure Testing
 
-**Intern (Team Lead):** Sruthi Rajeshkumar  
-**Team Members:** MD Abdulla | Sudarshan Yadav  
-**Organization:** Zaalimaa Development Pvt Ltd  
-**Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
-**Week:** Week 2  
-**Date:** 06.06.2026  
-**Status:** ✅ Completed
+- **Intern (Team Lead):** Sruthi Rajeshkumar
+- **Team Members:** MD Abdulla | Sudarshan Yadav  
+- **Organization:** Zaalimaa Development Pvt Ltd
+- **Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)
+- **Week:** Week 2
+- **Date:** 06.06.2026
+- **Status:** ✅ Completed
 
 ---
 
 ## 📌 Objective
-Perform Cross-Site Scripting (XSS) testing on DVWA to understand how
-XSS vulnerabilities work, execute malicious scripts in the browser,
-and document sensitive data exposure through PHP Info page.
+Perform Cross-Site Scripting (XSS) testing on DVWA to understand how XSS vulnerabilities work, execute malicious scripts in the browser,and document sensitive data exposure through PHP Info page.
 
 **OWASP Reference:** A05:2025 - Injection (XSS) | A04:2025 - Cryptographic Failures  
 **Platform:** DVWA (http://localhost:8080)  
