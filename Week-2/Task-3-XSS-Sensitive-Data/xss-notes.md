@@ -13,10 +13,10 @@
 ## 📌 Objective
 Perform Cross-Site Scripting (XSS) testing on DVWA to understand how XSS vulnerabilities work, execute malicious scripts in the browser,and document sensitive data exposure through PHP Info page.
 
-**OWASP Reference:** A05:2025 - Injection (XSS) | A04:2025 - Cryptographic Failures  
-**Platform:** DVWA (http://localhost:8080)  
-**Security Level:** Low  
-**Modules:** XSS Reflected | XSS Stored | PHP Info
+- **OWASP Reference:** A05:2025 - Injection (XSS) | A04:2025 - Cryptographic Failures  
+- **Platform:** DVWA (http://localhost:8080)  
+- **Security Level:** Low  
+- **Modules:** XSS Reflected | XSS Stored | PHP Info
 
 ---
 
