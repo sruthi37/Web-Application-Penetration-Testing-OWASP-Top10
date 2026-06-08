@@ -167,17 +167,16 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ---
 
-### 🔄 Week 2 — In Progress
+### ✅ Week 2 — Completed
 | Task | Description | Platform | Status |
 |---|---|---|---|
 | Task 1 | SQL Injection Testing | DVWA | ✅ Done |
 | Task 2 | Broken Authentication Testing | DVWA + Juice Shop | ✅ Done |
-| Task 3 | XSS Testing | DVWA | 🔄 In Progress |
-| Task 4 | Sensitive Data Exposure | DVWA | 🔄 Pending |
+| Task 3 | XSS + Sensitive Data Exposure | DVWA | ✅ Done |
 
 ---
 
-## 🔍 Vulnerabilities Found So Far
+## 🔍 Vulnerabilities Found — Week 2
 
 | # | Vulnerability | Platform | Severity | Status |
 |---|---|---|---|---|
@@ -188,15 +187,19 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 | 5 | Weak Password Policy | DVWA | 🔴 High | ✅ Confirmed |
 | 6 | Credentials in Plain Text URL | DVWA | 🔴 High | ✅ Confirmed |
 | 7 | SQLi Authentication Bypass | Juice Shop | 🔴 Critical | ✅ Confirmed |
+| 8 | XSS Reflected | DVWA | 🔴 High | ✅ Confirmed |
+| 9 | XSS Stored | DVWA | 🔴 Critical | ✅ Confirmed |
+| 10 | Sensitive Data Exposure | DVWA | 🔴 High | ✅ Confirmed |
 
 ---
 
 ## 📊 Progress Tracker
 
-- Week 1  ████████████████████  100% ✅
-- Week 2  ████████████████████  100% ✅
-- Week 3  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
-- Week 4  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+Week 1  ████████████████████  100% ✅
+Week 2  ████████████████████  100% ✅
+Week 3  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+Week 4  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+
 
 ## ⚠️ Disclaimer
 
