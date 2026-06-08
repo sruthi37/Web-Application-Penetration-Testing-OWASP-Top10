@@ -49,7 +49,7 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ---
 
-## 📋 Week 1 Tasks
+# 📋 Week 1 Tasks
 
 ### ✅ Task 1 — OWASP Top 10:2025 Study
 | Field | Details |
@@ -167,7 +167,7 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ---
 
-### ✅ Week 2 — Completed
+# ✅ Week 2 — Completed
 | Task | Description | Platform | Status |
 |---|---|---|---|
 | Task 1 | SQL Injection Testing | DVWA | ✅ Done |
@@ -195,10 +195,10 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ## 📊 Progress Tracker
 
-Week 1  ████████████████████  100% ✅
-Week 2  ████████████████████  100% ✅
-Week 3  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
-Week 4  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+- Week 1  ████████████████████  100% ✅
+- Week 2  ████████████████████  100% ✅
+- Week 3  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
+- Week 4  ░░░░░░░░░░░░░░░░░░░░    0% 🔄
 
 
 ## ⚠️ Disclaimer
