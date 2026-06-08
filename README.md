@@ -226,10 +226,10 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ## ⚠️ Week 2 Contribution Note
 
-> **Sruthi Rajeshkumar (Team Lead)** has completed all Week 2 tasks fully with proper documentation and proof.
-> **MD Abdulla (Mem)** completed Task 1 — SQL Injection fully.
-> **Sudarshan Yadav (Mem)** completed half of Task 1 — SQL Injection.
-> **Abhinaya (Mem)** has not responded or submitted any work for Week 2.
+- **Sruthi Rajeshkumar (Team Lead)** has completed all Week 2 tasks fully with proper documentation and proof.
+- **MD Abdulla (Mem)** completed Task 1 — SQL Injection fully.
+- **Sudarshan Yadav (Mem)** completed half of Task 1 — SQL Injection.
+- **Abhinaya (Mem)** has not responded or submitted any work for Week 2.
 
 **Note:** All pending members have been notified to complete their tasks at the earliest.
 
