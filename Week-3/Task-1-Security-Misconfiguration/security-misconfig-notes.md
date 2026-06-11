@@ -1,23 +1,24 @@
 # 🔧 Week 3 — Task 1: Security Misconfiguration Testing
 
-**Intern (Team Lead):** Sruthi Rajeshkumar  
-**Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
-**Organization:** Zaalimaa Development Pvt Ltd  
-**Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
-**Week:** Week 3  
-**Date:** 11.06.2026  
-**Status:** ✅ Completed
+- **Intern (Team Lead):** Sruthi Rajeshkumar
+- **Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav
+- **Organization:** Zaalimaa Development Pvt Ltd
+- **Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)
+- **Week:** Week 3
+- **Date:** 11.06.2026
+- **Status:** ✅ Completed
 
 ---
 
 ## 📌 Objective
+
 Perform Security Misconfiguration testing on DVWA and OWASP Juice Shop
 to identify improperly configured systems, exposed sensitive files,
 default credentials, and publicly accessible admin panels.
 
-**OWASP Reference:** A02:2025 - Security Misconfiguration  
-**Platform:** DVWA (http://localhost:8080) + Juice Shop (http://localhost:3000)  
-**Security Level:** Low  
+- **OWASP Reference:** A02:2025 - Security Misconfiguration  
+- **Platform:** DVWA (http://localhost:8080) + Juice Shop (http://localhost:3000)  
+- **Security Level:** Low  
 
 ---
 
