@@ -174,6 +174,6 @@ default credentials, and publicly accessible admin panels.
 | Team Member | Role | Status |
 |---|---|---|
 | Sruthi Rajeshkumar | Team Lead | ✅ Completed |
-| Abhinaya | Member | ✅ Completed |
-| MD Abdulla | Member | ✅ Completed |
-| Sudarshan Yadav | Member | ✅ Completed |
+| Abhinaya | Member | ❌ 0% Complete |
+| MD Abdulla | Member | ❌ 0% Complete |
+| Sudarshan Yadav | Member | ❌ 0% Complete |
