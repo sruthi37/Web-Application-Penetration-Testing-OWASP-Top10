@@ -1,4 +1,4 @@
-# 🔧 Week 3 — Task 1: Security Misconfiguration Testing
+# Week 3 — Task 1: Security Misconfiguration Testing
 
 - **Intern (Team Lead):** Sruthi Rajeshkumar
 - **Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav
