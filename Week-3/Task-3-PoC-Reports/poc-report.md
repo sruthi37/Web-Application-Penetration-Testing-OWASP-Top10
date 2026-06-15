@@ -1,13 +1,13 @@
 # 📋 Proof of Concept (PoC) Report
 # Web Application Penetration Testing — OWASP Top 10 Focus
 
-**Prepared by:** Sruthi Rajeshkumar (Team Lead)  
-**Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
-**Organization:** Zaalimaa Development Pvt Ltd  
-**Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
-**Report Date:** 11.06.2026  
-**Testing Period:** Week 2 — Week 3  
-**Status:** ✅ Completed
+- **Prepared by:** Sruthi Rajeshkumar (Team Lead)  
+- **Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
+- **Organization:** Zaalimaa Development Pvt Ltd  
+- **Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
+- **Report Date:** 11.06.2026  
+- **Testing Period:** Week 2 — Week 3  
+- **Status:** ✅ Completed
 
 ---
 
