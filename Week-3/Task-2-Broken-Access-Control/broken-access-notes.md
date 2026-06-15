@@ -23,17 +23,68 @@ privilege escalation, and improper access restrictions.
 
 ## 📸 Screenshots
 
-- Screenshot 1: Docker containers running — `screenshots/01-docker-ps-day2-week3.png`
-- Screenshot 2: DVWA Dashboard — `screenshots/02-dvwa-dashboard-day2.png`
-- Screenshot 3: Weak Session IDs module — `screenshots/03-dvwa-weak-session-ids.png`
-- Screenshot 4: Session ID in cookie — `screenshots/04-session-id-cookie.png`
-- Screenshot 5: Session ID incremental — `screenshots/05-session-id-incremental.png`
-- Screenshot 6: Juice Shop homepage — `screenshots/06-juiceshop-homepage.png`
-- Screenshot 7: Juice Shop logged in — `screenshots/07-juiceshop-loggedin.png`
-- Screenshot 8: JWT token in storage — `screenshots/08-jwt-token-storage.png`
-- Screenshot 9: Admin basket access — `screenshots/09-juiceshop-admin-basket.png`
-- Screenshot 10: Admin panel access — `screenshots/10-admin-panel-access.png`
-- Screenshot 11: User profile access — `screenshots/11-user-profile-access.png`
+- Screenshot 1: Docker containers running — 
+
+<img width="1600" height="830" alt="01-docker-ps-day2-week3 png" src="https://github.com/user-attachments/assets/77590836-5c8c-453b-ac90-c7e4fde43cb6" />
+
+
+
+- Screenshot 2: DVWA Dashboard — 
+
+<img width="1600" height="843" alt="02-dvwa-dashboard-day2 png" src="https://github.com/user-attachments/assets/14877ce4-0eb8-4538-9bfd-f6929267193d" />
+
+
+
+- Screenshot 3: Weak Session IDs module —
+
+<img width="1600" height="843" alt="03-dvwa-weak-session-ids png" src="https://github.com/user-attachments/assets/173806ba-943e-4b36-ac72-e83df97502bb" />
+
+
+
+- Screenshot 4: Session ID in cookie — 
+
+<img width="1600" height="838" alt="04-session-id-cookie png" src="https://github.com/user-attachments/assets/e3c7c1a2-5261-4a6f-bfd3-d7b49ab65abb" />
+
+
+
+- Screenshot 5: Session ID incremental — 
+
+<img width="1600" height="839" alt="05-session-id-incremental png" src="https://github.com/user-attachments/assets/d5d1c1f1-7874-48e9-8eb2-e0ed2ff9dacb" />
+
+
+
+- Screenshot 6: Juice Shop homepage — 
+
+<img width="1600" height="842" alt="06-juiceshop-homepage png" src="https://github.com/user-attachments/assets/6f85bd87-9935-4855-801f-c711a5be158c" />
+
+
+
+- Screenshot 7: Juice Shop logged in —
+
+<img width="1600" height="838" alt="07-juiceshop-loggedin png" src="https://github.com/user-attachments/assets/a0d032b5-fef4-4f29-bb6b-8fff7ff5d860" />
+
+
+
+- Screenshot 8: JWT token in storage — 
+
+<img width="1600" height="834" alt="08-jwt-token-storage png" src="https://github.com/user-attachments/assets/db9dca4a-b051-4101-809d-10ccb27b64e4" />
+
+- Screenshot 9: Admin basket access — 
+
+<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/107e6eb3-3edb-46ae-84b7-4a603f3f6964" />
+
+
+
+- Screenshot 10: Admin panel access — 
+
+<img width="1600" height="841" alt="image" src="https://github.com/user-attachments/assets/37a53923-5f91-41c1-8ff2-87bef67f2b8a" />
+
+
+
+- Screenshot 11: User profile access — 
+
+<img width="1600" height="838" alt="image" src="https://github.com/user-attachments/assets/bf1ddf12-da7c-4e17-92dd-9b724b8a0ea0" />
+
 
 ---
 
