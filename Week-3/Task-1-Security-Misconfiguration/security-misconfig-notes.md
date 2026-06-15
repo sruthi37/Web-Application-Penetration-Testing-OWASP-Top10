@@ -24,14 +24,52 @@ default credentials, and publicly accessible admin panels.
 
 ## 📸 Screenshots
 
-- Screenshot 1: Docker containers running — `screenshots/01-docker-ps-week3.png`
-- Screenshot 2: DVWA Dashboard — `screenshots/02-dvwa-dashboard-week3.png`
-- Screenshot 3: PHP Info page exposed — `screenshots/03-phpinfo-exposed-config.png`
-- Screenshot 4: Juice Shop homepage — `screenshots/04-juice-shop-homepage.png`
-- Screenshot 5: Admin panel accessible — `screenshots/05-juice-shop-admin-page.png`
-- Screenshot 6: FTP directory exposed — `screenshots/06-juice-shop-ftp-exposed.png`
-- Screenshot 7: KeePass database downloaded — `screenshots/07-kdbx-file-downloaded.png`
-- Screenshot 8: API unauthorized response — `screenshots/08-api-unauthorized.png`
+- Screenshot 1: Docker containers running — 
+
+<img width="1600" height="844" alt="WhatsApp Image 2026-06-11 at 3 01 15 PM" src="https://github.com/user-attachments/assets/7b4ba88e-0f82-4cab-989d-3de0220f46a9" />
+
+
+
+- Screenshot 2: DVWA Dashboard — 
+
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-11 at 3 05 03 PM" src="https://github.com/user-attachments/assets/8822326a-6dbb-4c6c-9992-2cb4d254fd11" />
+
+
+
+- Screenshot 3: PHP Info page exposed — 
+
+<img width="1600" height="846" alt="WhatsApp Image 2026-06-11 at 3 08 53 PM" src="https://github.com/user-attachments/assets/620c47ea-d936-4c30-acff-9e14e2d000e4" />
+
+
+
+- Screenshot 4: Juice Shop homepage — 
+
+<img width="1600" height="843" alt="WhatsApp Image 2026-06-11 at 3 10 36 PM" src="https://github.com/user-attachments/assets/981f3853-5c92-4925-b020-550ae449941f" />
+
+
+
+- Screenshot 5: Admin panel accessible — 
+
+<img width="1600" height="843" alt="WhatsApp Image 2026-06-11 at 3 10 36 PM" src="https://github.com/user-attachments/assets/024120f3-2ee0-4c21-b97d-c5e60d6d253d" />
+
+<img width="1600" height="840" alt="image" src="https://github.com/user-attachments/assets/73c06343-fb85-4dee-b532-fa5982e55ce0" />
+
+
+
+- Screenshot 6: FTP directory exposed — 
+
+<img width="1600" height="842" alt="image" src="https://github.com/user-attachments/assets/29fdaf48-4fb2-465e-826c-769552b746ca" />
+
+
+- Screenshot 7: KeePass database downloaded — 
+
+<img width="1600" height="839" alt="image" src="https://github.com/user-attachments/assets/eb9145c1-ee75-4c75-9d25-dcf7659437f7" />
+
+
+- Screenshot 8: API unauthorized response — 
+
+<img width="1600" height="844" alt="image" src="https://github.com/user-attachments/assets/80a949cd-e24d-4e53-bd5a-d2ceb1b8e971" />
+
 
 ---
 
