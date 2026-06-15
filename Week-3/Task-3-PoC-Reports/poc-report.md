@@ -97,6 +97,9 @@ The application passes user input directly to the database query without sanitiz
 - Database Type Exposed: MariaDB
 - Screenshot: sqli-error-message.png
 
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-03 at 1 40 17 PM" src="https://github.com/user-attachments/assets/7c6f98eb-be6c-4240-9a90-8fbd0f02e955" />
+
+
 ### Impact
 - Database type and version exposed to attackers
 - Confirms SQL Injection vulnerability exists
@@ -135,6 +138,9 @@ Boolean-based SQL Injection allows extraction of all database records by manipul
 - Result: All 5 users extracted
 - Users Found: admin, Gordon Brown, Hack Me, Pablo Picasso, Bob Smith
 - Screenshot: sqli-all-users-dumped.png
+
+<img width="1600" height="843" alt="WhatsApp Image 2026-06-03 at 1 44 21 PM" src="https://github.com/user-attachments/assets/8a3882a5-eb04-4947-9b11-3291d3e2ae8d" />
+
 
 ### Impact
 - Full database user table exposed
@@ -175,6 +181,9 @@ UNION-based SQL Injection allows extraction of database metadata including datab
 - DB User: app@localhost
 - DB Name: dvwa
 - Screenshot: sqli-union-db-info.png
+
+<img width="1600" height="839" alt="WhatsApp Image 2026-06-03 at 1 45 44 PM" src="https://github.com/user-attachments/assets/f3290769-0772-4b03-978f-974a6dba6b19" />
+
 
 ### Impact
 - Critical database information exposed
@@ -221,6 +230,9 @@ The application does not implement account lockout after multiple failed login a
 - No lockout triggered after 8 attempts
 - Screenshot: burp-intruder-attack-results.png
 
+<img width="1600" height="842" alt="WhatsApp Image 2026-06-04 at 1 58 21 PM" src="https://github.com/user-attachments/assets/d78e45a8-214f-449c-9f33-2a608887b2b9" />
+
+
 ### Impact
 - Unlimited password guessing allowed
 - Weak passwords easily cracked
@@ -258,6 +270,9 @@ The application allows weak passwords that can be easily guessed or cracked usin
 - Method: Burp Suite Intruder
 - Time to Crack: Seconds
 - Screenshot: burp-intruder-password-found.png
+
+<img width="1600" height="842" alt="WhatsApp Image 2026-06-04 at 2 01 03 PM" src="https://github.com/user-attachments/assets/e8781bf0-68d2-424b-8f78-ed0fca8272b5" />
+
 
 ### Impact
 - Accounts easily compromised
@@ -300,6 +315,11 @@ The login form is vulnerable to SQL Injection allowing attackers to bypass authe
 - No valid credentials required
 - Screenshot: juiceshop-auth-bypass-success.png
 
+<img width="1600" height="842" alt="WhatsApp Image 2026-06-04 at 2 09 24 PM" src="https://github.com/user-attachments/assets/1505d01a-d373-4f1d-8503-f038dbff4f1d" />
+
+<img width="1600" height="842" alt="WhatsApp Image 2026-06-04 at 2 10 40 PM" src="https://github.com/user-attachments/assets/5cf3f081-70eb-4e5d-b770-650929a3652e" />
+
+
 ### Impact
 - Complete authentication bypass
 - Admin access without credentials
@@ -339,6 +359,9 @@ User input is directly reflected in the page response without sanitization, allo
 - Result: Alert popup showing "XSS" fired
 - Input reflected in URL and page
 - Screenshot: xss-reflected-alert.png
+
+<img width="1600" height="843" alt="WhatsApp Image 2026-06-05 at 11 59 50 PM" src="https://github.com/user-attachments/assets/50a95b7e-6769-48be-9423-6c00318c5963" />
+
 
 ### Impact
 - Script execution in victim's browser
@@ -382,6 +405,9 @@ Malicious script is permanently stored in the database and executes automaticall
 - Result: Persistent alert on every page load
 - Affects ALL visitors not just attacker
 - Screenshot: xss-stored-persistent.png
+
+<img width="1600" height="839" alt="WhatsApp Image 2026-06-08 at 1 02 17 PM" src="https://github.com/user-attachments/assets/35d1b93b-6638-40eb-88bc-df253860736f" />
+
 
 ### Impact
 - Affects every user visiting the page
@@ -468,6 +494,9 @@ Application uses default credentials that were never changed, allowing anyone wi
 - Result: Full admin access granted
 - Screenshot: dvwa-dashboard-week3.png
 
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-11 at 3 05 03 PM" src="https://github.com/user-attachments/assets/524a44e0-c168-40cc-82e8-6867d8ce1bc4" />
+
+
 ### Impact
 - Unauthorized access to application
 - Admin privileges obtained
@@ -509,6 +538,11 @@ Administration panel accessible to any authenticated user without proper role-ba
 - admin@juice-sh.op visible
 - Customer feedback accessible
 - Screenshot: juice-shop-admin-page.png
+
+<img width="1600" height="839" alt="WhatsApp Image 2026-06-11 at 3 13 03 PM" src="https://github.com/user-attachments/assets/dfa230c2-2afd-46d2-8010-f3b3482283cf" />
+
+<img width="1600" height="840" alt="WhatsApp Image 2026-06-11 at 3 13 03 PM (1)" src="https://github.com/user-attachments/assets/03753bfc-24b2-43cd-a274-10ae466dfbb1" />
+
 
 ### Impact
 - All user data exposed
@@ -552,6 +586,9 @@ FTP directory publicly accessible without authentication, exposing sensitive bus
 - Critical File: incident-support.kdbx (3.2KB)
 - KeePass database downloaded without authentication
 - Screenshot: juice-shop-ftp-exposed.png
+
+<img width="1600" height="842" alt="WhatsApp Image 2026-06-11 at 3 14 19 PM" src="https://github.com/user-attachments/assets/8ebb0f2a-c17b-4deb-84d9-4f079571a123" />
+
 
 ### Impact
 - Sensitive business data exposed
@@ -597,6 +634,8 @@ Session IDs are sequential integers that can be easily predicted by an attacker 
 - SameSite: None
 - Screenshot: session-id-cookie.png
 
+<img width="1600" height="838" alt="WhatsApp Image 2026-06-15 at 10 07 34 AM" src="https://github.com/user-attachments/assets/87073f86-ba68-47bf-802c-9b047d03e769" />
+
 ### Impact
 - Session hijacking possible
 - Any valid session can be guessed
@@ -638,6 +677,9 @@ Application fails to enforce proper access controls allowing users to access adm
 - 10 user emails exposed
 - Profile modification possible
 - Screenshot: admin-panel-access.png
+
+<img width="1600" height="841" alt="WhatsApp Image 2026-06-15 at 10 26 07 AM" src="https://github.com/user-attachments/assets/cfe8bcc4-8d91-4456-b8e2-63fa65144f6b" />
+
 
 ### Impact
 - Privilege escalation
