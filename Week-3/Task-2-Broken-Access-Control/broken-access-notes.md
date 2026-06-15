@@ -1,12 +1,12 @@
 # 🔓 Week 3 — Task 2: Broken Access Control Testing
 
-**Intern (Team Lead):** Sruthi Rajeshkumar  
-**Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
-**Organization:** Zaalimaa Development Pvt Ltd  
-**Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
-**Week:** Week 3  
-**Date:** 10.06.2026  
-**Status:** ✅ Completed
+- **Intern (Team Lead):** Sruthi Rajeshkumar  
+- **Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
+- **Organization:** Zaalimaa Development Pvt Ltd  
+- **Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
+- **Week:** Week 3  
+- **Date:** 10.06.2026  
+- **Status:** ✅ Completed
 
 ---
 
