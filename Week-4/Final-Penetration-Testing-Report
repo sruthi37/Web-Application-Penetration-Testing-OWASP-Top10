@@ -1,0 +1,470 @@
+# 📄 Final Penetration Testing Report
+# Web Application Penetration Testing — OWASP Top 10 Focus
+
+**Prepared by:** Sruthi Rajeshkumar (Team Lead)  
+**Team Members:** Abhinaya | MD Abdulla | Sudarshan Yadav  
+**Organization:** Zaalimaa Development Pvt Ltd  
+**Project:** Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)  
+**Report Date:** 15.06.2026  
+**Testing Period:** Week 1 — Week 3 (May 2026 — June 2026)  
+**Report Version:** 1.0 — Final  
+**Status:** ✅ Completed
+
+---
+
+## 📌 Table of Contents
+
+1. Executive Summary
+2. Project Overview
+3. Testing Environment
+4. Tools Used
+5. Methodology
+6. Week-wise Summary
+7. Vulnerabilities Found
+8. Detailed Findings
+9. Risk Assessment
+10. Remediation Recommendations
+11. Conclusion
+
+---
+
+## 1️⃣ Executive Summary
+
+This report presents the findings of a comprehensive web application
+penetration test conducted on DVWA (Damn Vulnerable Web Application)
+and OWASP Juice Shop as part of Project 2 of the Zaalimaa Development
+Pvt Ltd Internship Program.
+
+The testing was conducted over 3 weeks following the OWASP Top 10:2025
+framework. A total of **15 vulnerabilities** were identified and
+successfully exploited, ranging from Critical to High severity.
+
+### Key Findings:
+- **7 Critical** vulnerabilities identified
+- **8 High** vulnerabilities identified
+- **15 Total** vulnerabilities confirmed
+- **5 OWASP** categories covered
+- **2 Platforms** tested (DVWA + Juice Shop)
+
+---
+
+## 2️⃣ Project Overview
+
+| Field | Details |
+|---|---|
+| **Organization** | Zaalimaa Development Pvt Ltd |
+| **Project Name** | Project 2 — Web Application Penetration Testing |
+| **Framework** | OWASP Top 10:2025 |
+| **Testing Type** | Black Box + Grey Box Penetration Testing |
+| **Environment** | Controlled Local Environment |
+| **Duration** | 3 Weeks |
+
+### Team:
+
+| Name | Role |
+|---|---|
+| Sruthi Rajeshkumar | Team Lead |
+| Abhinaya | Member |
+| MD Abdulla | Member |
+| Sudarshan Yadav | Member |
+
+---
+
+## 3️⃣ Testing Environment
+
+| Component | Details |
+|---|---|
+| **Operating System** | Kali Linux (VMware Workstation) |
+| **Platform 1** | DVWA v1.10 — http://localhost:8080 |
+| **Platform 2** | OWASP Juice Shop — http://localhost:3000 |
+| **Container** | Docker v28.5.2 |
+| **Browser** | Firefox v102.0 |
+| **Security Level** | Low (intentionally vulnerable) |
+
+---
+
+## 4️⃣ Tools Used
+
+| Tool | Version | Purpose |
+|---|---|---|
+| Kali Linux | Latest | Primary penetration testing OS |
+| Burp Suite | Community v2023.5.4 | Proxy, Intruder, Interception |
+| Docker | 28.5.2 | Container platform |
+| Firefox | 102.0 | Browser with proxy configuration |
+| DVWA | v1.10 | Vulnerable web application |
+| OWASP Juice Shop | Latest | Vulnerable web application |
+
+---
+
+## 5️⃣ Methodology
+
+The penetration test followed a structured approach:
+
+### Phase 1 — Reconnaissance (Week 1)
+- Studied OWASP Top 10:2025 framework
+- Set up testing environment
+- Performed Burp Suite reconnaissance
+- Discovered application endpoints via spidering
+
+### Phase 2 — Vulnerability Scanning (Week 2)
+- SQL Injection testing
+- Broken Authentication testing
+- XSS testing
+- Sensitive Data Exposure testing
+
+### Phase 3 — Exploitation (Week 3)
+- Security Misconfiguration testing
+- Broken Access Control testing
+- Proof of Concept documentation
+
+### Phase 4 — Reporting (Week 4)
+- Compiled all findings
+- Created detailed PoC reports
+- Provided remediation recommendations
+- Final report preparation
+
+---
+
+## 6️⃣ Week-wise Summary
+
+### ✅ Week 1 — Reconnaissance & Setup
+
+| Task | Description | Status |
+|---|---|---|
+| Task 1 | OWASP Top 10:2025 Study | ✅ Completed |
+| Task 2 | DVWA + Juice Shop Setup | ✅ Completed |
+| Task 3 | Burp Suite Reconnaissance | ✅ Completed |
+
+**Key Findings:**
+- Successfully set up Docker-based testing environment
+- Discovered multiple API endpoints via Burp Suite spidering:
+   - /rest/products/search
+   - /api/Challenges/
+   - /socket.io/
+   - /rest/admin/application-configuration
+
+---
+
+### ✅ Week 2 — Vulnerability Testing
+
+| Task | Description | Status |
+|---|---|---|
+| Task 1 | SQL Injection Testing | ✅ Completed |
+| Task 2 | Broken Authentication Testing | ✅ Completed |
+| Task 3 | XSS + Sensitive Data Exposure | ✅ Completed |
+
+**Key Findings:**
+- 3 types of SQL Injection confirmed
+- Database credentials extracted
+- Password cracked via Burp Suite Intruder
+- Admin bypass via SQLi
+- XSS Reflected and Stored confirmed
+- PHP Info page exposing server details
+
+---
+
+### ✅ Week 3 — Advanced Testing & PoC Reports
+
+| Task | Description | Status |
+|---|---|---|
+| Task 1 | Security Misconfiguration | ✅ Completed |
+| Task 2 | Broken Access Control | ✅ Completed |
+| Task 3 | PoC Reports | ✅ Completed |
+
+**Key Findings:**
+- Admin panel exposed without authentication
+- FTP directory publicly accessible
+- KeePass database downloaded without auth
+- Weak sequential session IDs
+- JWT token exposed in localStorage
+
+---
+
+## 7️⃣ Vulnerabilities Found
+
+| # | Vulnerability | Platform | OWASP | Severity |
+|---|---|---|---|---|
+| 1 | SQL Injection — Error Based | DVWA | A05:2025 | 🔴 Critical |
+| 2 | SQL Injection — Boolean Based | DVWA | A05:2025 | 🔴 Critical |
+| 3 | SQL Injection — UNION Based | DVWA | A05:2025 | 🔴 Critical |
+| 4 | No Account Lockout | DVWA | A07:2025 | 🔴 High |
+| 5 | Weak Password Policy | DVWA | A07:2025 | 🔴 High |
+| 6 | SQLi Authentication Bypass | Juice Shop | A05:2025 | 🔴 Critical |
+| 7 | XSS Reflected | DVWA | A05:2025 | 🔴 High |
+| 8 | XSS Stored | DVWA | A05:2025 | 🔴 Critical |
+| 9 | Sensitive Data Exposure | DVWA | A04:2025 | 🔴 High |
+| 10 | Default Credentials | DVWA | A02:2025 | 🔴 High |
+| 11 | Admin Panel Exposed | Juice Shop | A02:2025 | 🔴 Critical |
+| 12 | FTP Directory Exposed | Juice Shop | A02:2025 | 🔴 Critical |
+| 13 | Weak Session IDs | DVWA | A01:2025 | 🔴 High |
+| 14 | Broken Access Control | Juice Shop | A01:2025 | 🔴 Critical |
+| 15 | JWT Token Exposure | Juice Shop | A07:2025 | 🔴 High |
+
+---
+
+## 8️⃣ Detailed Findings
+
+### Finding 1 — SQL Injection
+
+**Severity:** 🔴 Critical  
+**Platform:** DVWA  
+**URL:** http://localhost:8080/vulnerabilities/sqli/
+
+**Description:**
+The application is vulnerable to multiple types of SQL Injection
+allowing attackers to extract sensitive data from the database.
+
+**Exploitation:**
+
+Error Based:
+Payload: 1' OR '1'='1
+Result: MariaDB error revealed
+
+Boolean Based:
+Payload: ' OR 1=1#
+Result: All 5 users dumped
+Users: admin, Gordon Brown, Hack Me, Pablo Picasso, Bob Smith
+
+Union Based:
+Payload: ' OR 1=1 UNION SELECT user(),database()#
+Result: DB User: app@localhost | DB Name: dvwa
+
+**Impact:** Full database compromise, sensitive data exposure
+
+---
+
+### Finding 2 — Broken Authentication
+
+**Severity:** 🔴 Critical  
+**Platform:** DVWA + Juice Shop
+
+**Description:**
+Authentication mechanisms are weak allowing brute force attacks
+and SQL Injection based authentication bypass.
+
+**Exploitation:**
+
+Brute Force (DVWA):
+Tool: Burp Suite Intruder
+Method: Sniper attack on password field
+Result: Password "password" cracked
+Evidence: Response length 4704 vs 4666
+
+SQLi Bypass (Juice Shop):
+Email: ' OR 1=1--
+Password: test
+Result: Logged in as admin@juice-sh.op
+
+**Impact:** Unauthorized account access, admin compromise
+
+---
+
+### Finding 3 — Cross-Site Scripting (XSS)
+
+**Severity:** 🔴 Critical (Stored) | 🔴 High (Reflected)  
+**Platform:** DVWA
+
+**Description:**
+Application reflects and stores user input without sanitization
+allowing script execution in victims' browsers.
+
+**Exploitation:**
+
+Reflected XSS:
+Payload: <script>alert('XSS')</script>
+Location: Name input field
+Result: Alert popup fired
+
+Stored XSS:
+Payload: <script>alert('Stored XSS')</script>
+Location: Message/Guestbook field
+Result: Persistent alert on every page load
+Affects: ALL visitors to the page
+
+**Impact:** Session theft, credential harvesting, persistent attacks
+
+---
+
+### Finding 4 — Sensitive Data Exposure
+
+**Severity:** 🔴 High  
+**Platform:** DVWA  
+**URL:** http://localhost:8080/phpinfo.php
+
+**Description:**
+PHP Info page publicly accessible exposing complete server
+configuration including versions, paths, and session data.
+
+**Data Exposed:**
+- PHP Version: 7.0.30-0+deb9u1
+- Apache Version: 2.4.25
+- Server Root: /etc/apache2
+- Document Root: /var/www/html
+- PHPSESSID Cookie exposed
+- Internal IP: 172.17.0.2
+
+**Impact:** Server fingerprinting, targeted attacks, session exposure
+
+---
+
+### Finding 5 — Security Misconfiguration
+
+**Severity:** 🔴 Critical  
+**Platform:** Juice Shop
+
+**Description:**
+Multiple security misconfigurations identified including exposed
+admin panel, public FTP directory, and downloadable sensitive files.
+
+**Exploitation:**
+
+Admin Panel:
+URL: http://localhost:3000/#/administration
+Result: 10 user emails exposed, admin functions accessible
+
+FTP Directory:
+URL: http://localhost:3000/ftp
+Result: 10 sensitive files accessible publicly
+Critical: incident-support.kdbx downloaded (3.2KB)
+
+**Impact:** Data breach, password database compromise
+
+---
+
+### Finding 6 — Broken Access Control
+
+**Severity:** 🔴 Critical  
+**Platform:** DVWA + Juice Shop
+
+**Description:**
+Access controls improperly implemented allowing unauthorized
+access to admin functions and sensitive user data.
+
+**Exploitation:**
+
+Weak Session IDs (DVWA):
+dvwaSession = sequential integers (1,2,3...)
+HttpOnly: false | Secure: false | SameSite: None
+Result: Session hijacking possible
+
+Admin Access (Juice Shop):
+URL: /#/administration
+Result: All user data accessible to any logged-in user
+Users Exposed: 10 registered users
+
+**Impact:** Privilege escalation, data exposure, account takeover
+
+---
+
+## 9️⃣ Risk Assessment
+
+### Risk Matrix
+
+| Severity | Count | Vulnerabilities |
+|---|---|---|
+| 🔴 Critical | 7 | SQLi x3, XSS Stored, SQLi Bypass, Admin Panel, FTP Exposed, Broken Access Control |
+| 🔴 High | 8 | No Lockout, Weak Password, XSS Reflected, Sensitive Data, Default Creds, Weak Session, JWT Exposure, Credentials in URL |
+| 🟡 Medium | 0 | — |
+| 🟢 Low | 0 | — |
+
+### Overall Risk Level: 🔴 CRITICAL
+
+---
+
+## 🔟 Remediation Recommendations
+
+### Immediate Priority (Critical):
+
+| # | Vulnerability | Fix |
+|---|---|---|
+| 1 | SQL Injection | Use parameterized queries |
+| 2 | SQLi Auth Bypass | Input validation + prepared statements |
+| 3 | XSS Stored | Output encoding + CSP headers |
+| 4 | Admin Panel Exposed | Implement RBAC |
+| 5 | FTP Directory Exposed | Disable public access |
+| 6 | Broken Access Control | Server-side authorization checks |
+| 7 | SQLi in Login | Parameterized login queries |
+
+### High Priority:
+
+| # | Vulnerability | Fix |
+|---|---|---|
+| 1 | No Account Lockout | Rate limiting + lockout policy |
+| 2 | Weak Password | Enforce strong password policy |
+| 3 | XSS Reflected | Input sanitization + output encoding |
+| 4 | Sensitive Data | Remove phpinfo.php |
+| 5 | Default Credentials | Change all defaults immediately |
+| 6 | Weak Session IDs | Cryptographically random session IDs |
+| 7 | JWT Token | Store in HttpOnly cookies |
+| 8 | Credentials in URL | Use POST method for login |
+
+### General Recommendations:
+
+- Implement Web Application Firewall (WAF)
+- Regular security code reviews
+- Automated vulnerability scanning
+- Security awareness training for developers
+- Implement proper logging and monitoring
+- Use HTTPS for all communications
+- Regular penetration testing schedule
+- Follow OWASP Secure Coding Practices
+
+---
+
+## 1️⃣1️⃣ Conclusion
+
+This penetration test successfully demonstrated the importance of
+web application security testing. A total of 15 vulnerabilities
+were identified and exploited across DVWA and OWASP Juice Shop
+using the OWASP Top 10:2025 framework.
+
+### Key Takeaways:
+
+1. SQL Injection remains one of the most critical vulnerabilities
+   and can lead to complete database compromise
+
+2. Authentication weaknesses allow attackers to bypass login
+   mechanisms entirely using simple techniques
+
+3. XSS vulnerabilities can persist in databases affecting all users
+
+4. Security misconfigurations expose sensitive files and admin panels
+   that should never be publicly accessible
+
+5. Proper access controls are essential to prevent privilege escalation
+   and unauthorized data access
+
+### Project Achievements:
+
+- ✅ Studied and documented OWASP Top 10:2025
+- ✅ Set up complete penetration testing environment
+- ✅ Performed reconnaissance using Burp Suite
+- ✅ Identified and exploited 15 vulnerabilities
+- ✅ Documented all findings with proof of concept
+- ✅ Provided detailed remediation recommendations
+- ✅ Created comprehensive penetration testing report
+
+All findings have been documented in the GitHub repository with
+screenshots, step-by-step reproduction steps, and remediation
+guidance for each vulnerability.
+
+---
+
+## ⚠️ Disclaimer
+
+> All penetration testing activities documented in this report
+> were performed exclusively on intentionally vulnerable
+> applications (DVWA and OWASP Juice Shop) in a controlled
+> local environment for educational purposes only.
+> These activities are part of an authorized internship program
+> at Zaalimaa Development Pvt Ltd. No real systems were harmed
+> or tested without authorization.
+
+---
+
+*Final Report prepared by: Sruthi Rajeshkumar (Team Lead)*  
+*Team: Abhinaya | MD Abdulla | Sudarshan Yadav*  
+*Zaalimaa Development Pvt Ltd Internship*  
+*Project 2 — Web Application Penetration Testing*  
+*© 2026 — Confidential Internal Report*
+
