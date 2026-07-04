@@ -1,6 +1,6 @@
 # Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus)
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-All%20Completed-green)
 ![Week](https://img.shields.io/badge/Week%201-Completed-green)
 ![Organization](https://img.shields.io/badge/Organization-Zaalima%20Development%20Pvt%20Ltd-blue)
 
