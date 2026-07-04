@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Week](https://img.shields.io/badge/Week%201-Completed-green)
-![Organization](https://img.shields.io/badge/Organization-Zaalimaa%20Development%20Pvt%20Ltd-blue)
+![Organization](https://img.shields.io/badge/Organization-Zaalima%20Development%20Pvt%20Ltd-blue)
 
 ---
 
