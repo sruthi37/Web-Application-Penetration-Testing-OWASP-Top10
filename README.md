@@ -10,7 +10,7 @@
 
 | Field | Details |
 |---|---|
-| **Organization** | Zaalimaa Development Pvt Ltd |
+| **Organization** | Zaalima Development Pvt Ltd |
 | **Internship Mode** | Online |
 | **Duration** | 3 Months |
 | **Project** | Project 2 — Web Application Penetration Testing (OWASP Top 10 Focus) |
