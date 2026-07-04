@@ -337,5 +337,5 @@ Study the OWASP Top 10:2025 vulnerabilities, set up the penetration testing envi
 
 ---
 
-*© 2026 Zaalimaa Development Pvt Ltd Internship — Week 1 Report & Week 2 Report & Week 3 & Week 4 Report*  
+*© 2026 Zaalima Development Pvt Ltd Internship — Week 1 Report & Week 2 Report & Week 3 & Week 4 Report*  
 *Team Lead: Sruthi Rajeshkumar*
